@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Paint</title>
+</head>
+
+<body>
+    <canvas id="canvas" width="1000" height="600">
+        Escolha uma cor <input type="color">
+
+    </canvas>
+    <div id="center">
+        <div id="fontes">
+            <p>color:</p>
+            <input id="colores" type="color">
+            <button id="maisLargura" onclick="maisLargura()"><iconify-icon
+                    icon="tdesign:arrow-triangle-up-filled"></iconify-icon>
+            </button>
+            <p id="largura"></p>
+            <button id="menosLargura" onclick="menosLargura()"><iconify-icon
+                    icon="tdesign:arrow-triangle-down-filled"></iconify-icon>
+            </button>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</body>
+
+</html>
